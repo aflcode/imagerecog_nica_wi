@@ -1,3 +1,7 @@
+Cloned https://github.com/aws-samples/lambda-refarch-imagerecognition.git
+and heavily reused.
+
+# TODO - README below is from original and needs to be updated 
 # Serverless Reference Architecture: Image Recognition and Processing Backend
 
 The Image Recognition and Processing Backend demonstrates how to use [AWS Step Functions](https://aws.amazon.com/step-functions/) to orchestrate a serverless processing workflow using [AWS Lambda](http://aws.amazon.com/lambda/), [Amazon S3](http://aws.amazon.com/s3/), [Amazon DynamoDB](http://aws.amazon.com/dynamodb/) and [Amazon Rekognition](https://aws.amazon.com/rekognition/). This workflow processes photos uploaded to Amazon S3 and extracts metadata from the image such as geolocation, size/format, time, etc. It then uses image recognition to tag objects in the photo. In parallel, it also produces a thumbnail of the photo.
